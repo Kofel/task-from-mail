@@ -1,0 +1,11 @@
+imap:
+  host: xxx
+  username:
+  password:
+redmine:
+  url: http://redmine.instance.com
+  token: xxx
+#projects:
+#  -
+#    id: 1
+#    sender_domain: fsm-polska.pl
