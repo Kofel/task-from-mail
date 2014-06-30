@@ -1,0 +1,20 @@
+{
+    "name": "kofel/task-from-mail",
+    "description": "Handles incoming mails (IMAP) as new tasks to Redmine project by recognizing sender.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jakub Kaflik",
+            "email": "kofels@gmail.com"
+        }
+    ],
+    "require": {
+        "kbsali/redmine-api": "1.0.9",
+        "tedivm/fetch": "v0.5.3",
+        "symfony/yaml": "2.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}
